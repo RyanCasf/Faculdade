@@ -2,10 +2,8 @@ package exemplo.sala;
 
 public class Aula3Exerc3 {
 	public static void main(String[] args) {
-		int dado1, dado2;
-		
-		dado1 = 1;
-		dado2 = 6;
+		int dado1 = 1;
+		int dado2 = 6;
 		int i = 1;
 		
 		while (i<=6) {
