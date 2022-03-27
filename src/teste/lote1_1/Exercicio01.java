@@ -17,11 +17,11 @@ public class Exercicio01
 	@Order(value = 1)
 	@RepeatedTest(value = 10)
     public void testShowInputDialog() {
-		int lado = random.nextInt();
-		assertEquals(calcularArea(lado), (lado * lado)) ;
+		double lado = random.nextDouble();
+		assertEquals(calcularArea(lado), (lado * lado), (lado * lado)) ;
     }
 	
-	private int calcularArea(int lado) {
+	private double calcularArea(double lado) {
         return (lado * lado);
 	}
 }

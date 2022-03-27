@@ -4,10 +4,10 @@ import javax.swing.JOptionPane;
 
 public class Exercicio03 {
 	public static void main(String[] args) {
-        int base = Integer.parseInt(JOptionPane.showInputDialog("D√≠gite a Base do tri√¢ngulo: "));
-        int altura = Integer.parseInt(JOptionPane.showInputDialog("D√≠gite a Altura do tri√¢ngulo: "));
+        double base = Integer.parseInt(JOptionPane.showInputDialog("DÌgite a Base do Tri‚ngulo: "));
+        double altura = Integer.parseInt(JOptionPane.showInputDialog("DÌgite a Altura do Tri‚ngulo: "));
         
-        int areaTriangulo = ((base * altura) / 2);
-        JOptionPane.showMessageDialog(null, "√Årea do tri√¢ngulo: "+areaTriangulo);
+        double areaTriangulo = ((base * altura) / 2);
+        JOptionPane.showMessageDialog(null, "A ¡rea do Tri‚ngulo: "+areaTriangulo);
 	}
 }
