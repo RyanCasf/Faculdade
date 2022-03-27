@@ -6,9 +6,9 @@ public class Exercicio20 {
 	public static void main(String[] args) {
 		double a, b, c, x1, x2;
 
-		a = Double.parseDouble(JOptionPane.showInputDialog("DIgite o coeficiente A: "));
-		b = Double.parseDouble(JOptionPane.showInputDialog("DIgite o coeficiente B: "));
-		c = Double.parseDouble(JOptionPane.showInputDialog("DIgite o coeficiente C: "));
+		a = Double.parseDouble(JOptionPane.showInputDialog("Dígite o Coeficiente A: "));
+		b = Double.parseDouble(JOptionPane.showInputDialog("Dígite o Coeficiente B: "));
+		c = Double.parseDouble(JOptionPane.showInputDialog("Dígite o Coeficiente C: "));
 
 		double delta = (b * b) - (4 * a * c);
 
@@ -16,10 +16,11 @@ public class Exercicio20 {
 			x1 = (-b + Math.sqrt(delta)) / 2 * a;
 			x2 = (-b - Math.sqrt(delta)) / 2 * a;
 
-			JOptionPane.showMessageDialog(null, "Primeira RaÃ­z Real: " + x1);
-			JOptionPane.showMessageDialog(null, "Segunda RaÃ­z Real: " + x2);
-		} else {
-			JOptionPane.showMessageDialog(null, "Sem raÃ­zes reais");
+			JOptionPane.showMessageDialog(null, "Primeira raíz Real: " + x1);
+			JOptionPane.showMessageDialog(null, "Segunda raíz Real: " + x2);
+		} 
+		else {
+			JOptionPane.showMessageDialog(null, "Sem raízes reais");
 		}
 	}
 }

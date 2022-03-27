@@ -4,9 +4,12 @@ import javax.swing.JOptionPane;
 
 public class Exercicio14 {
 	public static void main(String[] args) {
-		double angulo1 = Double.parseDouble(JOptionPane.showInputDialog("Insira o valor do primeiro triÃ¢ngulo: "));
-        double angulo2 = Double.parseDouble(JOptionPane.showInputDialog("Insira o valor do segundo triÃ¢ngulo: "));
-        
-        JOptionPane.showMessageDialog(null, "O valor do 3Âº Ã¢ngulo: " + Math.abs((angulo1 + angulo2) - 180) + "Âº");
+		double angulo1 = Double.parseDouble(JOptionPane.showInputDialog(
+				"Dígite o valor do primeiro triângulo: "));
+		double angulo2 = Double.parseDouble(JOptionPane.showInputDialog(
+				"Dígite o valor do segundo triângulo: "));
+
+		JOptionPane.showMessageDialog(
+				null, "O valor do 3º Ângulo: "+ Math.abs((angulo1 + angulo2) - 180) + "º");
 	}
 }

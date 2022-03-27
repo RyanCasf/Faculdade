@@ -4,9 +4,10 @@ import javax.swing.JOptionPane;
 
 public class Exercicio09 {
 	public static void main(String[] args) {
-        int num1 = Integer.parseInt(JOptionPane.showInputDialog("DÃ­gite o Primeiro valor: "));
-        int num2 = Integer.parseInt(JOptionPane.showInputDialog("DÃ­gite o Segunda valor: "));
+        int num1 = Integer.parseInt(JOptionPane.showInputDialog("Dígite o Primeiro valor: "));
+        int num2 = Integer.parseInt(JOptionPane.showInputDialog("Dígite o Segunda valor: "));
         
-        JOptionPane.showMessageDialog(null, "A soma dos quadrados Ã©: " + ((num1 * num1) +(num2 * num2)));
+        JOptionPane.showMessageDialog(
+        		null, "A soma dos quadrados é: "+((num1 * num1)+(num2 * num2)));
 	}
 }

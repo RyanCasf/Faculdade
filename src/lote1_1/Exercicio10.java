@@ -4,9 +4,10 @@ import javax.swing.JOptionPane;
 
 public class Exercicio10 {
 	public static void main(String[] args) {
-		double real1 = Double.parseDouble(JOptionPane.showInputDialog("Insira o primeiro real: "));
-        double real2 = Double.parseDouble(JOptionPane.showInputDialog("Insira o segundo real: "));
+		double real1 = Double.parseDouble(JOptionPane.showInputDialog("Dígite o Primeiro Real: "));
+        double real2 = Double.parseDouble(JOptionPane.showInputDialog("Dígite o Segundo Real: "));
         
-        JOptionPane.showMessageDialog(null, "A diferenÃ§a entre os valores reais Ã©: " + (real1 - real2));
+        JOptionPane.showMessageDialog(
+        		null, "A diferença entre os valores reais é: "+(real1 - real2));
 	}
 }
