@@ -1,9 +1,7 @@
 package teste.lote1_1;
 
 import static org.junit.Assert.assertEquals;
-
 import java.util.Random;
-
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.RepeatedTest;
@@ -22,6 +20,7 @@ public class Exercicio04 {
 	}
 	
 	private double celsiusToFahrenheit(double celsius) {
+//		F = (9 * C + 160) / 5.
         return ((9 * celsius + 160) / 5);
 	}
 }
