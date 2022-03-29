@@ -11,7 +11,8 @@ public class Exercicio02 {
 		double media = 0;
 
 		for (i = 0; i < valores.length; i++) {
-			valores[i] = Integer.parseInt(JOptionPane.showInputDialog("Dígite um valor: "));
+			valores[i] = Integer.parseInt(JOptionPane.showInputDialog(
+					"Dígite um valor: "));
 
 			if (i == 0) {
 				maior = valores[0];
@@ -29,7 +30,7 @@ public class Exercicio02 {
 			media += valores[i];
 		}
 
-		media /= i;
+		media /= (i == 0 ? 1 : i);
 
 		JOptionPane.showMessageDialog(null,
 				"Maior valor: " + maior + "\nMenor valor: " + menor + "\nMédia dos valores: " + media);
