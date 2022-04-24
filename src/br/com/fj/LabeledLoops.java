@@ -1,5 +1,8 @@
 package br.com.fj;
 
+/*
+ * Labeled Loops
+ */
 public interface LabeledLoops {
 	static final int SIZE = 10;
 
