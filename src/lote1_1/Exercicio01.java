@@ -4,9 +4,9 @@ import javax.swing.JOptionPane;
 
 public class Exercicio01 {
     public static void main(String[] args) {
-        double lado = Integer.parseInt(JOptionPane.showInputDialog("Dígite o lado do Quadrado: "));
+        double lado = Integer.parseInt(JOptionPane.showInputDialog("DÃ­gite o lado do Quadrado: "));
         double area = (lado * lado);
         
-        JOptionPane.showMessageDialog(null, "A Área do quadrado é: " + area);
+        JOptionPane.showMessageDialog(null, "A Ã¡rea do quadrado Ã©: " + area);
     }
 }
